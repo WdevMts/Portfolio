@@ -1,0 +1,473 @@
+/* CORPÃO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: #0b0b0b;
+    height: 100vh;
+
+}
+.interface{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* CABEÇA*/
+
+.txttop {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25%;
+    max-width: 800px;
+}
+.paragrafo {
+    color: #5B58FF;
+    font-weight: 600;
+}
+main .topo button:hover{
+    transform: scale(1.05);
+    transition: .5s;
+    filter: drop-shadow(0px 0px 20px #0E2260);
+    background-color: #003aad;
+}
+main .topo img{
+    max-width: 400px;
+    position: absolute;
+    top: 200px;
+    right: 180px;
+    filter: drop-shadow( 0px 0px 100px #0e2260 );
+    pointer-events: none;
+    user-select: none;
+}
+.topo a {
+    text-decoration: none;
+}
+main .topo a{
+    display: block;
+    height: 0px;
+}
+h1 .topo span{
+    color: #5B58FF;
+}
+main .topo button{
+    padding: 13px 4%;
+    display: flex;
+    border: 2px solid #0E2260;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+    font-size: 26px;
+    text-align: right;
+    pointer-events: all;
+    user-select: none;
+    color: #fff;
+    transition: .5s;
+}
+main .topo a{
+    padding: 17px 17px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+main .topo img{
+    position: absolute;
+    right: 160px;
+    padding-top: 200px;
+    animation: flutuar 2s ease-in-out infinite alternate; 
+}
+.especialidades{
+    max-width: 1400px;
+}
+.especialidades .interface h2{
+    position: relative;
+    top: 300px;
+    left: 700px;
+    color: #fff;
+    font-size: 40px;
+}
+.titulo span{
+    color: #5B58FF;
+}
+&::-webkit-scrollbar {
+    display: none;
+}
+.especialidades .cssicon{
+    max-width: 158.8px;
+    position: relative;
+    left: 500px;
+    filter: drop-shadow(0px 0px 20px #004CE8);
+}
+.especialidades .htmlicon{
+    max-width: 127px;
+    position: relative;
+    top: 400px;
+    left: 1300px;
+    filter: drop-shadow(0px 0px 20px #FF4B00);
+}
+.especialidades img{
+    position: relative;
+    left: 800px;
+    top: 600px;
+    pointer-events: none;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.especialidades li{
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Open-Sans', sans-serif;
+    position: relative;
+    top: 620px;
+    max-width: 210px;
+    left: 500px;
+}
+.cxs{
+    color: #004CE8;
+}
+.cxs2{
+    position: relative;
+    padding-top: 10px;
+}
+.cxs3{
+    color: #FF4B00;
+}
+.rfx1{
+    position: relative;
+    top: -205px;
+    left: 780px;
+}
+.cxs4{
+    padding-top: 10px;
+}
+.curriculo button{
+    color: #fff;
+    background: linear-gradient(to right, #004CE8, #FF4B00 );
+    border: none;
+    border-radius: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 13px 50px;
+    cursor: pointer;
+    position: relative;
+    top: 500px;
+    left: 720px;
+    user-select: none;
+    transition: .5s;
+}
+.curriculo button:hover{
+    transition: .5s;
+    transform: scale(1.05);
+    filter: drop-shadow(0px 0px 20px #0e2260);
+}
+.curriculo a{
+    color: #fff;
+    text-decoration: none;
+}
+.aer1{
+    position: relative;
+    margin-top: -120px;
+}
+.aer1 button{
+    position: relative;
+    margin-top: 70px;
+}
+.sobremim h3{
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    top: 800px;
+    left: 820px;
+}
+.tgx1{
+    color: #5B58FF;
+}
+.sobremim .imagem img{
+    max-width: 400px;
+    filter: drop-shadow(0px 0px 40px #0e2260);
+    animation: flutuar 2s ease-in-out infinite alternate; 
+    position: relative;
+    padding-top: 900px;
+    user-select: none;
+    pointer-events: none;
+}
+.sobremim p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    max-width: 900px;
+    font-size: 27px;
+    position: relative;
+    top: -230px;
+    left: 500px;
+}
+.pxs1{
+    color: #5B58FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.plx1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #0E2260;
+    cursor: pointer;
+    position: relative;
+    left: 880px;
+    top: 30px;
+}
+svg{
+    color: #fff;
+    position: relative;
+    top: 3px;
+}
+.plx1:hover{
+    transform: scale(1.10);
+    transition: .5s;
+    filter: drop-shadow(0px 0px 5px #0e2260);
+    background-color: #1034a0;
+}
+.plx2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #0E2260;
+    cursor: pointer;
+    position: relative;
+    left: 940px;
+    top: 30px;
+}
+.plx2:hover{
+    transform: scale(1.10);
+    transition: .5s;
+    filter: drop-shadow(0px 0px 5px #0e2260);
+    background-color: #1034a0;
+}
+.plx3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #0E2260;
+    cursor: pointer;
+    position: relative;
+    left: 1000px;
+    top: 30px;
+}
+.plx3 svg{
+    width: 25px;
+    height: 25px;
+}
+.plx3:hover{
+    transform: scale(1.10);
+    transition: .5s;
+    filter: drop-shadow(0px 0px 5px #0e2260);
+    background-color: #1034a0;
+}
+.redes{
+    position: relative;
+    left: -20px;
+}
+.redes a{
+    display: block;
+    max-width: 0px;
+    max-height: 0px;
+}
+.pb{
+    max-height: 100px;
+    user-select: none;
+    pointer-events: none;
+}
+.sar{
+    margin-top: 140px;
+}
+.sar2 p{
+    position: relative;
+    top: 1000px;
+}
+.sar2 img{
+    position: relative;
+    margin-top: -200px;
+}
+.redes{
+    margin-top: 200px;
+}
+@media screen and (max-width: 850px){
+    /*DATES*/
+    body{
+        margin-top: -650px;
+        max-width: 0 auto;
+        margin-left: 0 auto;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    h1{
+        position: relative;
+        left: -4px;
+    }
+    main .topo img{
+        position: relative;
+        animation: none;
+        top: 800px;
+        left: -13px;
+    }
+    .Contato a{
+        position: relative;
+        left: 58px;
+        top: 470px;
+    }
+    /*CABEÇA*/
+    .menu-desktop{
+        display: none;
+    }
+    /*ESPECIALIDADES*/
+    .titulo{
+        position: relative;
+        left: -670px;
+        top: 200px;
+    }
+    .especialidades .cssicon{
+        position: relative;
+        left: 70px;
+        top: 750px;
+        max-width: 250px;
+    }
+    .especialidades li{
+        position: relative;
+        left: 110px;
+        top: 800px;
+    }
+    .especialidades .htmlicon{
+        position: relative;
+        top: 900px;
+        left: 100px;
+        max-width: 180px;
+    }
+    .especialidades .rfx1{
+        position: relative;
+        top: 160px;
+        left: 0px;
+    }
+    h1{
+        padding-left: 1.5vh;
+        text-align: center;
+    }
+    .interface p{
+        padding-left: 4vh;
+        max-width: 370px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    h2{
+        text-align: center;
+        position: relative;
+        padding-right: 55px;
+    }
+    .curriculo a{
+        position: relative;
+        right: 705px;
+        top: 510px;
+    }
+    .curriculo button{
+        padding: 15px 2vh;
+    }
+    h3{
+        position: relative;
+        margin-left: -735px;
+        margin-top: 300px;
+    }
+    .sobremim p{
+        position: relative;
+        left: 20px;
+        max-width: 360px;
+        top: 850px;
+        font-size: 24px;
+        padding-left: 1vh;
+    }
+    .sobremim .imagem{
+        position: relative;
+        margin-top: -5px;
+        left: -20px;
+    }
+    .redes a{
+        position: relative;
+        left: -760px;
+        top: 70px;
+    }
+    .pb{
+        position: relative;
+        margin-top: 100px;
+        user-select: none;
+        pointer-events: none;
+        cursor: default;
+    }
+    main .Contato a{
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    main .Contato button{
+        position: relative;
+        left: 35px;
+        margin-top: 440px;
+    }
+    .sar{
+        margin-top: -280px;
+    }
+    main .curriculo button{
+        position: relative;
+        margin-top: 580px;
+        margin-left: -690px;
+        padding: 14px 20px;
+        font-size: 25px;
+    }
+    main .curriculo a{
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .sar2{
+        position: relative;
+        margin-top: -400px;
+    }
+    main .sar2 img{
+        position: relative;
+        animation: none;
+        margin-top: 0px;
+    }
+    .redes{
+        margin-top: 0px;
+    }
+    .war1{
+        position: relative;
+        margin-left: 10px;
+    }
+    .Contato a{
+        
+    }
+}
