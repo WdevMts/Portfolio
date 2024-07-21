@@ -32,6 +32,7 @@ main .topo button:hover {
     transition: 0.5s;
     filter: drop-shadow(0px 0px 10px #0E2260);
     background-color: #003aad;
+    border-radius: 26px;
 }
 main .topo img {
     max-width: 400px;
@@ -58,7 +59,7 @@ main .topo button {
     border: 2px solid #0E2260;
     font-size: 26px;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 15px;
     text-decoration: none;
     background-color: transparent;
     font-weight: 500;
@@ -157,7 +158,7 @@ main .topo img {
 }
 .curriculo button {
     color: #fff;
-    background: linear-gradient(to right, #004CE8, #FF4B00);
+    background: linear-gradient(to right, #004CE8, #85770d , #FF4B00); 
     border: none;
     border-radius: 30px;
     font-family: 'Nunito', sans-serif;
@@ -173,11 +174,15 @@ main .topo img {
 }
 .curriculo button:hover {
     transform: scale(1.05);
-    filter: drop-shadow(0px 0px 10px #0e2260);
 }
 .curriculo a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 200px;
+    position: relative;
+    left: -160px;
+    top: -3px;
+    font-size: 28px;
 }
 .aer1 {
     position: relative;
@@ -337,9 +342,6 @@ h2 {
 .cxs9{
     margin-top: 10px;
 }
-.curriculo button{
-    margin-top: 250px;
-}
 .rfx2{
     position: relative;
     margin-top: 0px;
@@ -361,7 +363,32 @@ a{
     min-width: 350px;
     justify-content: center;
 }
-@media screen and (max-width: 850px) {
+.aer1{
+    left: -17px;
+}
+.Curriculo button{
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(to right, #004CE8, #85770d, #FF4B00);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .5s;
+    margin-left: 770px;
+    margin-top: 750px;
+}
+.Curriculo button:hover{
+    transform: scale(1.05);
+    transition: .5s;
+    border-radius: 20px;
+}
+.sar2{
+    margin-top: -500px;
+}
+@media screen and (max-width: 750px) {
     .interface{
         margin-top: -600px;
     }
@@ -549,7 +576,7 @@ a{
         top: 800px;
     }
     .sar2{
-        margin-top: -200px;
+        margin-top: 700px;
     }
     .aer1{
         left: 0px;
@@ -569,8 +596,16 @@ a{
     .btt1{
         min-width: 350px;
     }
+    .Curriculo button{
+        margin-left: 15px;
+        margin-top: 1300px;
+    }
+    .sar2{
+        margin-top: -900px;
+    }
     .Contato a{
         max-width: 0px;
         max-height: 0px;
     }
+    
 }
