@@ -319,9 +319,35 @@ h3 {
 h2 {
     white-space: nowrap;
     max-width: 0;
+    margin-left: 20px;
 }
 .rfx1 {
     max-width: 200px;
+}
+.jsicon{
+    max-width: 120px;
+    filter: drop-shadow(0px 0px 20px #f7df1e);
+    position: relative;
+    margin-top: -400px;
+    margin-left: 110px;
+}
+.cxs8{
+    color: #f7df1e;
+}
+.cxs9{
+    margin-top: 10px;
+}
+.curriculo button{
+    margin-top: 250px;
+}
+.rfx2{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 380px;
+}
+.aer1{
+    position: relative;
+    left: -30px;
 }
 @media screen and (max-width: 850px) {
     .interface{
@@ -406,7 +432,7 @@ h2 {
     .curriculo a {
         position: relative;
         right: 705px;
-        top: 510px;
+        top: 590px;
     }
     .curriculo button {
         padding: 15px 20px;
@@ -494,5 +520,21 @@ h2 {
     body button {
         pointer-events: all;
         cursor: pointer;
+    }
+    .jsicon{
+        margin-left: -690px;
+        margin-top: 450px;
+        max-width: 160px;
+    }
+    .rfx2{
+        margin-left: 0px;
+        margin-top: -140px;
+    }
+    .curriculo button{
+        position: absolute;
+        top: 800px;
+    }
+    .sar2{
+        margin-top: -200px;
     }
 }
