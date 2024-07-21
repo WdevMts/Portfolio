@@ -349,6 +349,18 @@ h2 {
     position: relative;
     left: -30px;
 }
+a{
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    max-width: 0px;
+    max-height: 0px;
+}
+.btt1{
+    min-width: 350px;
+    justify-content: center;
+}
 @media screen and (max-width: 850px) {
     .interface{
         margin-top: -600px;
@@ -369,10 +381,11 @@ h2 {
     .Contato a {
         position: absolute;
         margin-top: 250px;
-        max-width: none;
-        max-height: none;
         pointer-events: all;
         z-index: 10;
+        max-width: 350px;
+        max-height: 300px;
+        display: block;
     }
     .menu-desktop {
         display: none;
@@ -476,7 +489,8 @@ h2 {
         display: flex;
         position: relative;
         top: 0;
-        left: 0;
+        left: -30px;
+        box-sizing: border-box;
     }
     main .Contato button {
         position: relative;
@@ -536,5 +550,27 @@ h2 {
     }
     .sar2{
         margin-top: -200px;
+    }
+    .aer1{
+        left: 0px;
+    }
+    .especialidades #t1{
+        position: relative;
+        margin-left: 86px;
+    }
+    .especialidades h2 span{
+        margin-left: 20px;
+    }
+    h1{
+        margin-top: -50px;
+        max-width: 350px;
+        left: 20px;
+    }
+    .btt1{
+        min-width: 350px;
+    }
+    .Contato a{
+        max-width: 0px;
+        max-height: 0px;
     }
 }
