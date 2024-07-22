@@ -607,5 +607,10 @@ a{
         max-width: 0px;
         max-height: 0px;
     }
-    
+    main #mob p{
+        color: #fff;
+        background-color: #ff0000;
+        text-align: center;
+        max-width: 400px;
+    }
 }
