@@ -609,10 +609,10 @@ a{
     }
     main #mob p{
         color: #fff;
-        background-color: #ff0000;
         text-align: center;
         min-width: 400px;
         font-size: 20px;
         position: relative;
+        font-weight: 600;
     }
 }
