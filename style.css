@@ -388,6 +388,12 @@ a{
 .sar2{
     margin-top: -500px;
 }
+#t2, #p1{
+    margin-left: 29px;
+}
+.redes{
+    margin-left: 15px;
+}
 @media screen and (max-width: 750px) {
     .interface{
         margin-top: -600px;
@@ -614,5 +620,11 @@ a{
         min-width: 400px;
         font-size: 20px;
         position: relative;
+    }
+    #p1{
+        margin-left: 0px;
+    }
+    #t2{
+        margin-left: -735px;
     }
 }
